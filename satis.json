@@ -1,6 +1,6 @@
 {
   "name": "Testing Satis",
-  "homepage": "http://packages.example.org",
+  "homepage": "https://linuxjuggler.github.io/testing-satis/",
   "repositories": [
     { "type": "vcs", "url": "https://github.com/linuxjuggler/lumen-make" },
     { "type": "vcs", "url": "https://github.com/linuxjuggler/lumen-starter" },
