@@ -14,7 +14,7 @@
                     "type": "tar",
                     "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/lumen-starter/zaherg-lumen-starter-df569ce1b05b999102fba8767908dab99a879cac-zip-8f23bf.tar",
                     "reference": "df569ce1b05b999102fba8767908dab99a879cac",
-                    "shasum": "1aa8219ef87dbc76ac6a05773b24373f5d45b754"
+                    "shasum": "0ff6df2d78e2eb4fa47db02eabb007d3cb85587a"
                 },
                 "require": {
                     "laravel/lumen-framework": "5.7.*",
@@ -95,7 +95,7 @@
                     "type": "tar",
                     "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/lumen-starter/zaherg-lumen-starter-123538732db7731cb007306d03cbecdae48947a0-zip-fbd396.tar",
                     "reference": "123538732db7731cb007306d03cbecdae48947a0",
-                    "shasum": "bcea853d94f43b88224221d741f45c8ebfbed1b5"
+                    "shasum": "81b6eee9e12d5ad826faaaf896b3a965d48ec179"
                 },
                 "require": {
                     "laravel/lumen-framework": "5.7.*",
@@ -176,7 +176,7 @@
                     "type": "tar",
                     "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/lumen-starter/zaherg-lumen-starter-da0bb957f5d57a8f33494b74f4b873219aa9a9b3-zip-fc7bae.tar",
                     "reference": "da0bb957f5d57a8f33494b74f4b873219aa9a9b3",
-                    "shasum": "0f79a204a574c75452da1f806010715a95cd5fbf"
+                    "shasum": "d321097b5b1cbffa46ffa459afaf9d109026c590"
                 },
                 "require": {
                     "laravel/lumen-framework": "5.7.*",

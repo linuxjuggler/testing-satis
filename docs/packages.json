@@ -1,0 +1,15 @@
+{
+    "packages": [],
+    "providers-url": "/testing-satis/p/%package%$%hash%.json",
+    "providers": {
+        "damascene/lumen-make": {
+            "sha256": "5e38111b7ead7938ef304fda036c7814f14e2c92dfd64d5515059ff914a134ec"
+        },
+        "zaherg/laravel-starter": {
+            "sha256": "845e51501c75a96b20471532e4ae16f0be996146d6ec4952684ffb91d79680d3"
+        },
+        "zaherg/lumen-starter": {
+            "sha256": "fcba92edf16e51b5d23f54307fa5445086fc1eec1c5c11821c883cebe655863d"
+        }
+    }
+}

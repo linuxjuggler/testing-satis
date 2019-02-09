@@ -14,7 +14,7 @@
                     "type": "tar",
                     "url": "https://linuxjuggler.github.io/testing-satis/dist/damascene/lumen-make/damascene-lumen-make-aac0488933e0576443e0ddc435d51565b67e4de4-zip-18a758.tar",
                     "reference": "aac0488933e0576443e0ddc435d51565b67e4de4",
-                    "shasum": "b8548101c8d440b8e6203cdd8b7f44f16ea82819"
+                    "shasum": "9913c0789ca2f09ea0c29e3e434fbdc49a600581"
                 },
                 "require": {
                     "laravel/lumen-framework": "5.6.*",
@@ -71,7 +71,7 @@
                     "type": "tar",
                     "url": "https://linuxjuggler.github.io/testing-satis/dist/damascene/lumen-make/damascene-lumen-make-d8e90f3360a13ad84b805ca8e187bd87cfedb1cc-zip-33d39f.tar",
                     "reference": "d8e90f3360a13ad84b805ca8e187bd87cfedb1cc",
-                    "shasum": "a1e1da8bf8205c730fa67ca159e3cc73f301a950"
+                    "shasum": "64637e258c95adf509ee40cf9a3b51d1082138d9"
                 },
                 "require": {
                     "laravel/lumen-framework": "5.7.*",

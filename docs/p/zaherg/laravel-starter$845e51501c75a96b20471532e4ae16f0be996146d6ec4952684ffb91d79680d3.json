@@ -14,7 +14,7 @@
                     "type": "tar",
                     "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/laravel-starter/zaherg-laravel-starter-90f07cef3086e12c15ba1ee99f9527a734407c7b-zip-ffea64.tar",
                     "reference": "90f07cef3086e12c15ba1ee99f9527a734407c7b",
-                    "shasum": "2f783bd493b91c26178a5c3e0f4cdb2451026a80"
+                    "shasum": "7e67f21412ef8fb2e9ecf4d55fed5447d71ce585"
                 },
                 "require": {
                     "barryvdh/laravel-cors": "^0.11.2",
@@ -115,7 +115,7 @@
                     "type": "tar",
                     "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/laravel-starter/zaherg-laravel-starter-65c105fd000b9f71bcd34e5341f6bdb017487510-zip-ff7bba.tar",
                     "reference": "65c105fd000b9f71bcd34e5341f6bdb017487510",
-                    "shasum": "cf56e80af8fddc147527b23164d848a6ac4d401e"
+                    "shasum": "446981350959212589f037905c48f339cb20a19c"
                 },
                 "require": {
                     "barryvdh/laravel-cors": "^0.11.2",
@@ -216,7 +216,7 @@
                     "type": "tar",
                     "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/laravel-starter/zaherg-laravel-starter-304c6999a08e918ba9eade041765d601b9179bfc-zip-920468.tar",
                     "reference": "304c6999a08e918ba9eade041765d601b9179bfc",
-                    "shasum": "56076f012d4aa99cd1dc8d44a58cac0615a45e09"
+                    "shasum": "04981aca3853d2617481aa2500e557d45a37a111"
                 },
                 "require": {
                     "barryvdh/laravel-cors": "^0.11.2",
@@ -317,7 +317,7 @@
                     "type": "tar",
                     "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/laravel-starter/zaherg-laravel-starter-22410d939cdf061213f43c3b1b9303ff4cfcda90-zip-91134d.tar",
                     "reference": "22410d939cdf061213f43c3b1b9303ff4cfcda90",
-                    "shasum": "116829c19cbcc37dd3560c8192f1e1c2886fe28a"
+                    "shasum": "1b642c42f50f379df3fd0ee278c6d50bd5b57bb9"
                 },
                 "require": {
                     "barryvdh/laravel-cors": "^0.11.2",
@@ -418,7 +418,7 @@
                     "type": "tar",
                     "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/laravel-starter/zaherg-laravel-starter-8755faac3eb0a1db4e21cc8a686e72ddd8b0e5a2-zip-0474ae.tar",
                     "reference": "8755faac3eb0a1db4e21cc8a686e72ddd8b0e5a2",
-                    "shasum": "f9c8beb4edfbdd546e3e85a752ed22a7a265d623"
+                    "shasum": "b3fa7723ef895b9d9e8b7f21d651ffcd68a91629"
                 },
                 "require": {
                     "barryvdh/laravel-cors": "^0.11.2",
@@ -519,7 +519,7 @@
                     "type": "tar",
                     "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/laravel-starter/zaherg-laravel-starter-0eee885a01f5fa8338a54a16e34c8c5629516b3c-zip-4e60c7.tar",
                     "reference": "0eee885a01f5fa8338a54a16e34c8c5629516b3c",
-                    "shasum": "9223021d3010cdd7426a9b090730018c1762faee"
+                    "shasum": "c23f2e2b7dc79e8e404bff5262ce8c3d4929ab83"
                 },
                 "require": {
                     "barryvdh/laravel-cors": "^0.11.2",
@@ -620,7 +620,7 @@
                     "type": "tar",
                     "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/laravel-starter/zaherg-laravel-starter-3d8ecc61baf403f64da864bfd388f7b36fb50fda-zip-cae04e.tar",
                     "reference": "3d8ecc61baf403f64da864bfd388f7b36fb50fda",
-                    "shasum": "bf620ca42a512c057c07de683978bb13241641b8"
+                    "shasum": "885514c708e70936f89fd082927e3eca0d75ae55"
                 },
                 "require": {
                     "barryvdh/laravel-cors": "^0.11.2",
@@ -721,7 +721,7 @@
                     "type": "tar",
                     "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/laravel-starter/zaherg-laravel-starter-9ffcf72f2936d1ec63b15583f1d07cfbca370c11-zip-e88ded.tar",
                     "reference": "9ffcf72f2936d1ec63b15583f1d07cfbca370c11",
-                    "shasum": "902f9cf4d8559513509dd1135d424f404342a6f7"
+                    "shasum": "5befa1c57ebcd8540de979e3dd9f8ff833b808ad"
                 },
                 "require": {
                     "barryvdh/laravel-cors": "^0.11.2",
@@ -822,7 +822,7 @@
                     "type": "tar",
                     "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/laravel-starter/zaherg-laravel-starter-11695f2f3d3b6c9a13683a735498f4495220c249-zip-5991bc.tar",
                     "reference": "11695f2f3d3b6c9a13683a735498f4495220c249",
-                    "shasum": "a0525411733e3f156c1d11ed2b1055d97e97fb32"
+                    "shasum": "2fe6673eed581f804b6c66b7a3227c848a71c3d1"
                 },
                 "require": {
                     "barryvdh/laravel-cors": "^0.11.2",
