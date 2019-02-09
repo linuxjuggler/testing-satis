@@ -13,3 +13,4 @@ docker run --rm --init -it \
 ``` 
 
 We specify the path to `satis.json` within the docker image, and we also specify the `output-dir` too.
+
