@@ -1,0 +1,329 @@
+{
+    "packages": {
+        "zaherg/lumen-starter": {
+            "v5.7": {
+                "name": "zaherg/lumen-starter",
+                "version": "v5.7",
+                "version_normalized": "5.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/linuxjuggler/lumen-starter.git",
+                    "reference": "df569ce1b05b999102fba8767908dab99a879cac"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/lumen-starter/zaherg-lumen-starter-df569ce1b05b999102fba8767908dab99a879cac-zip-8f23bf.tar",
+                    "reference": "df569ce1b05b999102fba8767908dab99a879cac",
+                    "shasum": "1aa8219ef87dbc76ac6a05773b24373f5d45b754"
+                },
+                "require": {
+                    "laravel/lumen-framework": "5.7.*",
+                    "php": ">=7.1.3",
+                    "swooletw/laravel-swoole": "^2.5",
+                    "vlucas/phpdotenv": "~2.2"
+                },
+                "require-dev": {
+                    "damascene/lumen-make": "^5.7",
+                    "friendsofphp/php-cs-fixer": "^2.13",
+                    "fzaninotto/faker": "~1.4",
+                    "mockery/mockery": "~1.0",
+                    "phpunit/phpunit": "~7.0",
+                    "squizlabs/php_codesniffer": "^3.3"
+                },
+                "time": "2018-11-20T14:40:26+00:00",
+                "type": "project",
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "database/seeds",
+                        "database/factories"
+                    ],
+                    "psr-4": {
+                        "App\\": "app/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/"
+                    ]
+                },
+                "scripts": {
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "phpcs": [
+                        "php ./vendor/bin/phpcs ./app -p --report=full --no-cache --colors --standard=PSR1,PSR2"
+                    ],
+                    "fix": [
+                        "php ./vendor/bin/php-cs-fixer fix --config=php_cs.php.dist --using-cache=no"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Zaher Ghaibeh",
+                        "email": "z@zah.me",
+                        "homepage": "https://zah.me",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "This is a starter template that I've built based on Lumen Framework, with some packages installed out of the box.",
+                "homepage": "https://github.com/Seldaek/monolog",
+                "keywords": [
+                    "framework",
+                    "laravel",
+                    "lumen"
+                ],
+                "support": {
+                    "source": "https://github.com/linuxjuggler/lumen-starter/tree/v5.7",
+                    "issues": "https://github.com/linuxjuggler/lumen-starter/issues"
+                },
+                "uid": 14
+            },
+            "v5.7.6": {
+                "name": "zaherg/lumen-starter",
+                "version": "v5.7.6",
+                "version_normalized": "5.7.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/linuxjuggler/lumen-starter.git",
+                    "reference": "123538732db7731cb007306d03cbecdae48947a0"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/lumen-starter/zaherg-lumen-starter-123538732db7731cb007306d03cbecdae48947a0-zip-fbd396.tar",
+                    "reference": "123538732db7731cb007306d03cbecdae48947a0",
+                    "shasum": "bcea853d94f43b88224221d741f45c8ebfbed1b5"
+                },
+                "require": {
+                    "laravel/lumen-framework": "5.7.*",
+                    "php": ">=7.1.3",
+                    "swooletw/laravel-swoole": "^2.5",
+                    "vlucas/phpdotenv": "~2.2"
+                },
+                "require-dev": {
+                    "damascene/lumen-make": "^5.7",
+                    "friendsofphp/php-cs-fixer": "^2.13",
+                    "fzaninotto/faker": "~1.4",
+                    "mockery/mockery": "~1.0",
+                    "phpunit/phpunit": "~7.0",
+                    "squizlabs/php_codesniffer": "^3.3"
+                },
+                "time": "2018-11-20T19:52:59+00:00",
+                "type": "project",
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "database/seeds",
+                        "database/factories"
+                    ],
+                    "psr-4": {
+                        "App\\": "app/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/"
+                    ]
+                },
+                "scripts": {
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "phpcs": [
+                        "php ./vendor/bin/phpcs ./app -p --report=full --no-cache --colors --standard=PSR1,PSR2"
+                    ],
+                    "fix": [
+                        "php ./vendor/bin/php-cs-fixer fix --config=php_cs.php.dist --using-cache=no"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Zaher Ghaibeh",
+                        "email": "z@zah.me",
+                        "homepage": "https://zah.me",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "This is a starter template that I've built based on Lumen Framework, with some packages installed out of the box.",
+                "homepage": "https://github.com/linuxjuggler/lumen-starter",
+                "keywords": [
+                    "framework",
+                    "laravel",
+                    "lumen"
+                ],
+                "support": {
+                    "source": "https://github.com/linuxjuggler/lumen-starter/tree/v5.7.6",
+                    "issues": "https://github.com/linuxjuggler/lumen-starter/issues"
+                },
+                "uid": 15
+            },
+            "v5.7.7": {
+                "name": "zaherg/lumen-starter",
+                "version": "v5.7.7",
+                "version_normalized": "5.7.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/linuxjuggler/lumen-starter.git",
+                    "reference": "da0bb957f5d57a8f33494b74f4b873219aa9a9b3"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/lumen-starter/zaherg-lumen-starter-da0bb957f5d57a8f33494b74f4b873219aa9a9b3-zip-fc7bae.tar",
+                    "reference": "da0bb957f5d57a8f33494b74f4b873219aa9a9b3",
+                    "shasum": "0f79a204a574c75452da1f806010715a95cd5fbf"
+                },
+                "require": {
+                    "laravel/lumen-framework": "5.7.*",
+                    "php": ">=7.1.3",
+                    "swooletw/laravel-swoole": "^2.5",
+                    "vlucas/phpdotenv": "~2.2"
+                },
+                "require-dev": {
+                    "damascene/lumen-make": "^5.7",
+                    "friendsofphp/php-cs-fixer": "^2.13",
+                    "fzaninotto/faker": "~1.4",
+                    "mockery/mockery": "~1.0",
+                    "phpunit/phpunit": "~7.0",
+                    "squizlabs/php_codesniffer": "^3.3"
+                },
+                "time": "2019-01-16T07:39:58+00:00",
+                "type": "project",
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "database/seeds",
+                        "database/factories"
+                    ],
+                    "psr-4": {
+                        "App\\": "app/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/"
+                    ]
+                },
+                "scripts": {
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "phpcs": [
+                        "php ./vendor/bin/phpcs ./app -p --report=full --no-cache --colors --standard=PSR1,PSR2"
+                    ],
+                    "fix": [
+                        "php ./vendor/bin/php-cs-fixer fix --config=php_cs.php.dist --using-cache=no"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Zaher Ghaibeh",
+                        "email": "z@zah.me",
+                        "homepage": "https://zah.me",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "This is a starter template that I've built based on Lumen Framework, with some packages installed out of the box.",
+                "homepage": "https://github.com/linuxjuggler/lumen-starter",
+                "keywords": [
+                    "framework",
+                    "laravel",
+                    "lumen"
+                ],
+                "support": {
+                    "source": "https://github.com/linuxjuggler/lumen-starter/tree/v5.7.7",
+                    "issues": "https://github.com/linuxjuggler/lumen-starter/issues"
+                },
+                "uid": 16
+            },
+            "dev-master": {
+                "name": "zaherg/lumen-starter",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/linuxjuggler/lumen-starter.git",
+                    "reference": "0be0de29246a6697197df4d5182401bca958a900"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/linuxjuggler/lumen-starter/zipball/0be0de29246a6697197df4d5182401bca958a900",
+                    "reference": "0be0de29246a6697197df4d5182401bca958a900",
+                    "shasum": ""
+                },
+                "require": {
+                    "laravel/lumen-framework": "5.7.*",
+                    "php": ">=7.1.3",
+                    "swooletw/laravel-swoole": "^2.5",
+                    "vlucas/phpdotenv": "~2.2"
+                },
+                "require-dev": {
+                    "damascene/lumen-make": "^5.7",
+                    "friendsofphp/php-cs-fixer": "^2.13",
+                    "fzaninotto/faker": "~1.4",
+                    "mockery/mockery": "~1.0",
+                    "phpunit/phpunit": "~7.0",
+                    "squizlabs/php_codesniffer": "^3.3"
+                },
+                "time": "2019-02-06T14:28:11+00:00",
+                "type": "project",
+                "autoload": {
+                    "classmap": [
+                        "database/seeds",
+                        "database/factories"
+                    ],
+                    "psr-4": {
+                        "App\\": "app/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/"
+                    ]
+                },
+                "scripts": {
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "phpcs": [
+                        "php ./vendor/bin/phpcs ./app -p --report=full --no-cache --colors --standard=PSR1,PSR2"
+                    ],
+                    "fix": [
+                        "php ./vendor/bin/php-cs-fixer fix --config=php_cs.php.dist --using-cache=no"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Zaher Ghaibeh",
+                        "email": "z@zah.me",
+                        "homepage": "https://zah.me",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "This is a starter template that I've built based on Lumen Framework, with some packages installed out of the box.",
+                "homepage": "https://github.com/linuxjuggler/lumen-starter",
+                "keywords": [
+                    "framework",
+                    "laravel",
+                    "lumen"
+                ],
+                "support": {
+                    "source": "https://github.com/linuxjuggler/lumen-starter/tree/master",
+                    "issues": "https://github.com/linuxjuggler/lumen-starter/issues"
+                },
+                "uid": 17
+            }
+        }
+    }
+}

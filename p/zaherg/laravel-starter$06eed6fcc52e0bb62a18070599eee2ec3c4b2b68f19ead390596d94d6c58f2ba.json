@@ -1,0 +1,1015 @@
+{
+    "packages": {
+        "zaherg/laravel-starter": {
+            "v5.7.13": {
+                "name": "zaherg/laravel-starter",
+                "version": "v5.7.13",
+                "version_normalized": "5.7.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/linuxjuggler/laravel-starter.git",
+                    "reference": "90f07cef3086e12c15ba1ee99f9527a734407c7b"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/laravel-starter/zaherg-laravel-starter-90f07cef3086e12c15ba1ee99f9527a734407c7b-zip-ffea64.tar",
+                    "reference": "90f07cef3086e12c15ba1ee99f9527a734407c7b",
+                    "shasum": "2f783bd493b91c26178a5c3e0f4cdb2451026a80"
+                },
+                "require": {
+                    "barryvdh/laravel-cors": "^0.11.2",
+                    "fideloper/proxy": "^4.0",
+                    "laravel/framework": "5.7.*",
+                    "laravel/tinker": "^1.0",
+                    "php": "^7.1.3",
+                    "predis/predis": "^1.1",
+                    "swooletw/laravel-swoole": "^2.5"
+                },
+                "require-dev": {
+                    "barryvdh/laravel-debugbar": "^3.2",
+                    "barryvdh/laravel-ide-helper": "^2.5",
+                    "beyondcode/laravel-dump-server": "^1.0",
+                    "filp/whoops": "^2.0",
+                    "friendsofphp/php-cs-fixer": "^2.13",
+                    "fzaninotto/faker": "^1.4",
+                    "mockery/mockery": "^1.0",
+                    "nunomaduro/collision": "^2.0",
+                    "phpunit/phpunit": "^7.0",
+                    "squizlabs/php_codesniffer": "^3.3"
+                },
+                "time": "2018-11-20T20:16:16+00:00",
+                "type": "project",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "database/seeds",
+                        "database/factories"
+                    ],
+                    "psr-4": {
+                        "App\\": "app/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi"
+                    ],
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "phpcs": [
+                        "php ./vendor/bin/phpcs ./app -p --report=full --no-cache --colors --standard=PSR1,PSR2"
+                    ],
+                    "fix": [
+                        "php ./vendor/bin/php-cs-fixer fix --config=php_cs.php.dist --using-cache=no"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Zaher Ghaibeh",
+                        "email": "z@zah.me",
+                        "homepage": "https://zah.me",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "This is a starter template that I've built based on Laravel Framework, with some packages installed out of the box.",
+                "homepage": "https://github.com/linuxjuggler/laravel-starter",
+                "keywords": [
+                    "framework",
+                    "laravel",
+                    "starter-kit",
+                    "starter-template"
+                ],
+                "support": {
+                    "source": "https://github.com/linuxjuggler/laravel-starter/tree/v5.7.13",
+                    "issues": "https://github.com/linuxjuggler/laravel-starter/issues"
+                },
+                "uid": 4
+            },
+            "v5.7.14": {
+                "name": "zaherg/laravel-starter",
+                "version": "v5.7.14",
+                "version_normalized": "5.7.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/linuxjuggler/laravel-starter.git",
+                    "reference": "65c105fd000b9f71bcd34e5341f6bdb017487510"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/laravel-starter/zaherg-laravel-starter-65c105fd000b9f71bcd34e5341f6bdb017487510-zip-ff7bba.tar",
+                    "reference": "65c105fd000b9f71bcd34e5341f6bdb017487510",
+                    "shasum": "cf56e80af8fddc147527b23164d848a6ac4d401e"
+                },
+                "require": {
+                    "barryvdh/laravel-cors": "^0.11.2",
+                    "fideloper/proxy": "^4.0",
+                    "laravel/framework": "5.7.*",
+                    "laravel/tinker": "^1.0",
+                    "php": "^7.1.3",
+                    "predis/predis": "^1.1",
+                    "swooletw/laravel-swoole": "^2.5"
+                },
+                "require-dev": {
+                    "barryvdh/laravel-debugbar": "^3.2",
+                    "barryvdh/laravel-ide-helper": "^2.5",
+                    "beyondcode/laravel-dump-server": "^1.0",
+                    "filp/whoops": "^2.0",
+                    "friendsofphp/php-cs-fixer": "^2.13",
+                    "fzaninotto/faker": "^1.4",
+                    "mockery/mockery": "^1.0",
+                    "nunomaduro/collision": "^2.0",
+                    "phpunit/phpunit": "^7.0",
+                    "squizlabs/php_codesniffer": "^3.3"
+                },
+                "time": "2018-11-25T15:52:38+00:00",
+                "type": "project",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "database/seeds",
+                        "database/factories"
+                    ],
+                    "psr-4": {
+                        "App\\": "app/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi"
+                    ],
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "phpcs": [
+                        "php ./vendor/bin/phpcs ./app -p --report=full --no-cache --colors --standard=PSR1,PSR2"
+                    ],
+                    "fix": [
+                        "php ./vendor/bin/php-cs-fixer fix --config=php_cs.php.dist --using-cache=no"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Zaher Ghaibeh",
+                        "email": "z@zah.me",
+                        "homepage": "https://zah.me",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "This is a starter template that I've built based on Laravel Framework, with some packages installed out of the box.",
+                "homepage": "https://github.com/linuxjuggler/laravel-starter",
+                "keywords": [
+                    "framework",
+                    "laravel",
+                    "starter-kit",
+                    "starter-template"
+                ],
+                "support": {
+                    "source": "https://github.com/linuxjuggler/laravel-starter/tree/v5.7.14",
+                    "issues": "https://github.com/linuxjuggler/laravel-starter/issues"
+                },
+                "uid": 5
+            },
+            "v5.7.15": {
+                "name": "zaherg/laravel-starter",
+                "version": "v5.7.15",
+                "version_normalized": "5.7.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/linuxjuggler/laravel-starter.git",
+                    "reference": "304c6999a08e918ba9eade041765d601b9179bfc"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/laravel-starter/zaherg-laravel-starter-304c6999a08e918ba9eade041765d601b9179bfc-zip-920468.tar",
+                    "reference": "304c6999a08e918ba9eade041765d601b9179bfc",
+                    "shasum": "56076f012d4aa99cd1dc8d44a58cac0615a45e09"
+                },
+                "require": {
+                    "barryvdh/laravel-cors": "^0.11.2",
+                    "fideloper/proxy": "^4.0",
+                    "laravel/framework": "5.7.*",
+                    "laravel/tinker": "^1.0",
+                    "php": "^7.1.3",
+                    "predis/predis": "^1.1",
+                    "swooletw/laravel-swoole": "^2.5"
+                },
+                "require-dev": {
+                    "barryvdh/laravel-debugbar": "^3.2",
+                    "barryvdh/laravel-ide-helper": "^2.5",
+                    "beyondcode/laravel-dump-server": "^1.0",
+                    "filp/whoops": "^2.0",
+                    "friendsofphp/php-cs-fixer": "^2.13",
+                    "fzaninotto/faker": "^1.4",
+                    "mockery/mockery": "^1.0",
+                    "nunomaduro/collision": "^2.0",
+                    "phpunit/phpunit": "^7.0",
+                    "squizlabs/php_codesniffer": "^3.3"
+                },
+                "time": "2018-11-27T09:38:02+00:00",
+                "type": "project",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "database/seeds",
+                        "database/factories"
+                    ],
+                    "psr-4": {
+                        "App\\": "app/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi"
+                    ],
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "phpcs": [
+                        "php ./vendor/bin/phpcs ./app -p --report=full --no-cache --colors --standard=PSR1,PSR2"
+                    ],
+                    "fix": [
+                        "php ./vendor/bin/php-cs-fixer fix --config=php_cs.php.dist --using-cache=no"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Zaher Ghaibeh",
+                        "email": "z@zah.me",
+                        "homepage": "https://zah.me",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "This is a starter template that I've built based on Laravel Framework, with some packages installed out of the box.",
+                "homepage": "https://github.com/linuxjuggler/laravel-starter",
+                "keywords": [
+                    "framework",
+                    "laravel",
+                    "starter-kit",
+                    "starter-template"
+                ],
+                "support": {
+                    "source": "https://github.com/linuxjuggler/laravel-starter/tree/v5.7.15",
+                    "issues": "https://github.com/linuxjuggler/laravel-starter/issues"
+                },
+                "uid": 6
+            },
+            "v5.7.16": {
+                "name": "zaherg/laravel-starter",
+                "version": "v5.7.16",
+                "version_normalized": "5.7.16.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/linuxjuggler/laravel-starter.git",
+                    "reference": "22410d939cdf061213f43c3b1b9303ff4cfcda90"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/laravel-starter/zaherg-laravel-starter-22410d939cdf061213f43c3b1b9303ff4cfcda90-zip-91134d.tar",
+                    "reference": "22410d939cdf061213f43c3b1b9303ff4cfcda90",
+                    "shasum": "116829c19cbcc37dd3560c8192f1e1c2886fe28a"
+                },
+                "require": {
+                    "barryvdh/laravel-cors": "^0.11.2",
+                    "fideloper/proxy": "^4.0",
+                    "laravel/framework": "5.7.*",
+                    "laravel/tinker": "^1.0",
+                    "php": "^7.1.3",
+                    "predis/predis": "^1.1",
+                    "swooletw/laravel-swoole": "^2.5"
+                },
+                "require-dev": {
+                    "barryvdh/laravel-debugbar": "^3.2",
+                    "barryvdh/laravel-ide-helper": "^2.5",
+                    "beyondcode/laravel-dump-server": "^1.0",
+                    "filp/whoops": "^2.0",
+                    "friendsofphp/php-cs-fixer": "^2.13",
+                    "fzaninotto/faker": "^1.4",
+                    "mockery/mockery": "^1.0",
+                    "nunomaduro/collision": "^2.0",
+                    "phpunit/phpunit": "^7.0",
+                    "squizlabs/php_codesniffer": "^3.3"
+                },
+                "time": "2018-12-11T15:32:31+00:00",
+                "type": "project",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "database/seeds",
+                        "database/factories"
+                    ],
+                    "psr-4": {
+                        "App\\": "app/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi"
+                    ],
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "phpcs": [
+                        "php ./vendor/bin/phpcs ./app -p --report=full --no-cache --colors --standard=PSR1,PSR2"
+                    ],
+                    "fix": [
+                        "php ./vendor/bin/php-cs-fixer fix --config=php_cs.php.dist --using-cache=no"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Zaher Ghaibeh",
+                        "email": "z@zah.me",
+                        "homepage": "https://zah.me",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "This is a starter template that I've built based on Laravel Framework, with some packages installed out of the box.",
+                "homepage": "https://github.com/linuxjuggler/laravel-starter",
+                "keywords": [
+                    "framework",
+                    "laravel",
+                    "starter-kit",
+                    "starter-template"
+                ],
+                "support": {
+                    "source": "https://github.com/linuxjuggler/laravel-starter/tree/v5.7.16",
+                    "issues": "https://github.com/linuxjuggler/laravel-starter/issues"
+                },
+                "uid": 7
+            },
+            "v5.7.17": {
+                "name": "zaherg/laravel-starter",
+                "version": "v5.7.17",
+                "version_normalized": "5.7.17.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/linuxjuggler/laravel-starter.git",
+                    "reference": "8755faac3eb0a1db4e21cc8a686e72ddd8b0e5a2"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/laravel-starter/zaherg-laravel-starter-8755faac3eb0a1db4e21cc8a686e72ddd8b0e5a2-zip-0474ae.tar",
+                    "reference": "8755faac3eb0a1db4e21cc8a686e72ddd8b0e5a2",
+                    "shasum": "f9c8beb4edfbdd546e3e85a752ed22a7a265d623"
+                },
+                "require": {
+                    "barryvdh/laravel-cors": "^0.11.2",
+                    "fideloper/proxy": "^4.0",
+                    "laravel/framework": "5.7.*",
+                    "laravel/tinker": "^1.0",
+                    "php": "^7.1.3",
+                    "predis/predis": "^1.1",
+                    "swooletw/laravel-swoole": "^2.5"
+                },
+                "require-dev": {
+                    "barryvdh/laravel-debugbar": "^3.2",
+                    "barryvdh/laravel-ide-helper": "^2.5",
+                    "beyondcode/laravel-dump-server": "^1.0",
+                    "filp/whoops": "^2.0",
+                    "friendsofphp/php-cs-fixer": "^2.13",
+                    "fzaninotto/faker": "^1.4",
+                    "mockery/mockery": "^1.0",
+                    "nunomaduro/collision": "^2.0",
+                    "phpunit/phpunit": "^7.0",
+                    "squizlabs/php_codesniffer": "^3.3"
+                },
+                "time": "2018-12-16T05:17:49+00:00",
+                "type": "project",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "database/seeds",
+                        "database/factories"
+                    ],
+                    "psr-4": {
+                        "App\\": "app/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi"
+                    ],
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "phpcs": [
+                        "php ./vendor/bin/phpcs ./app -p --report=full --no-cache --colors --standard=PSR1,PSR2"
+                    ],
+                    "fix": [
+                        "php ./vendor/bin/php-cs-fixer fix --config=php_cs.php.dist --using-cache=no"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Zaher Ghaibeh",
+                        "email": "z@zah.me",
+                        "homepage": "https://zah.me",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "This is a starter template that I've built based on Laravel Framework, with some packages installed out of the box.",
+                "homepage": "https://github.com/linuxjuggler/laravel-starter",
+                "keywords": [
+                    "framework",
+                    "laravel",
+                    "starter-kit",
+                    "starter-template"
+                ],
+                "support": {
+                    "source": "https://github.com/linuxjuggler/laravel-starter/tree/v5.7.17",
+                    "issues": "https://github.com/linuxjuggler/laravel-starter/issues"
+                },
+                "uid": 8
+            },
+            "v5.7.18": {
+                "name": "zaherg/laravel-starter",
+                "version": "v5.7.18",
+                "version_normalized": "5.7.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/linuxjuggler/laravel-starter.git",
+                    "reference": "0eee885a01f5fa8338a54a16e34c8c5629516b3c"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/laravel-starter/zaherg-laravel-starter-0eee885a01f5fa8338a54a16e34c8c5629516b3c-zip-4e60c7.tar",
+                    "reference": "0eee885a01f5fa8338a54a16e34c8c5629516b3c",
+                    "shasum": "9223021d3010cdd7426a9b090730018c1762faee"
+                },
+                "require": {
+                    "barryvdh/laravel-cors": "^0.11.2",
+                    "fideloper/proxy": "^4.0",
+                    "laravel/framework": "5.7.*",
+                    "laravel/tinker": "^1.0",
+                    "php": "^7.1.3",
+                    "predis/predis": "^1.1",
+                    "swooletw/laravel-swoole": "^2.5"
+                },
+                "require-dev": {
+                    "barryvdh/laravel-debugbar": "^3.2",
+                    "barryvdh/laravel-ide-helper": "^2.5",
+                    "beyondcode/laravel-dump-server": "^1.0",
+                    "filp/whoops": "^2.0",
+                    "friendsofphp/php-cs-fixer": "^2.13",
+                    "fzaninotto/faker": "^1.4",
+                    "mockery/mockery": "^1.0",
+                    "nunomaduro/collision": "^2.0",
+                    "phpunit/phpunit": "^7.0",
+                    "squizlabs/php_codesniffer": "^3.3"
+                },
+                "time": "2018-12-18T06:12:25+00:00",
+                "type": "project",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "database/seeds",
+                        "database/factories"
+                    ],
+                    "psr-4": {
+                        "App\\": "app/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi"
+                    ],
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "phpcs": [
+                        "php ./vendor/bin/phpcs ./app -p --report=full --no-cache --colors --standard=PSR1,PSR2"
+                    ],
+                    "fix": [
+                        "php ./vendor/bin/php-cs-fixer fix --config=php_cs.php.dist --using-cache=no"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Zaher Ghaibeh",
+                        "email": "z@zah.me",
+                        "homepage": "https://zah.me",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "This is a starter template that I've built based on Laravel Framework, with some packages installed out of the box.",
+                "homepage": "https://github.com/linuxjuggler/laravel-starter",
+                "keywords": [
+                    "framework",
+                    "laravel",
+                    "starter-kit",
+                    "starter-template"
+                ],
+                "support": {
+                    "source": "https://github.com/linuxjuggler/laravel-starter/tree/v5.7.18",
+                    "issues": "https://github.com/linuxjuggler/laravel-starter/issues"
+                },
+                "uid": 9
+            },
+            "v5.7.19": {
+                "name": "zaherg/laravel-starter",
+                "version": "v5.7.19",
+                "version_normalized": "5.7.19.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/linuxjuggler/laravel-starter.git",
+                    "reference": "3d8ecc61baf403f64da864bfd388f7b36fb50fda"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/laravel-starter/zaherg-laravel-starter-3d8ecc61baf403f64da864bfd388f7b36fb50fda-zip-cae04e.tar",
+                    "reference": "3d8ecc61baf403f64da864bfd388f7b36fb50fda",
+                    "shasum": "bf620ca42a512c057c07de683978bb13241641b8"
+                },
+                "require": {
+                    "barryvdh/laravel-cors": "^0.11.2",
+                    "fideloper/proxy": "^4.0",
+                    "laravel/framework": "5.7.*",
+                    "laravel/tinker": "^1.0",
+                    "php": "^7.1.3",
+                    "predis/predis": "^1.1",
+                    "swooletw/laravel-swoole": "^2.5"
+                },
+                "require-dev": {
+                    "barryvdh/laravel-debugbar": "^3.2",
+                    "barryvdh/laravel-ide-helper": "^2.5",
+                    "beyondcode/laravel-dump-server": "^1.0",
+                    "filp/whoops": "^2.0",
+                    "friendsofphp/php-cs-fixer": "^2.13",
+                    "fzaninotto/faker": "^1.4",
+                    "mockery/mockery": "^1.0",
+                    "nunomaduro/collision": "^2.0",
+                    "phpunit/phpunit": "^7.0",
+                    "squizlabs/php_codesniffer": "^3.3"
+                },
+                "time": "2018-12-23T15:51:51+00:00",
+                "type": "project",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "database/seeds",
+                        "database/factories"
+                    ],
+                    "psr-4": {
+                        "App\\": "app/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi"
+                    ],
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "phpcs": [
+                        "php ./vendor/bin/phpcs ./app -p --report=full --no-cache --colors --standard=PSR1,PSR2"
+                    ],
+                    "fix": [
+                        "php ./vendor/bin/php-cs-fixer fix --config=php_cs.php.dist --using-cache=no"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Zaher Ghaibeh",
+                        "email": "z@zah.me",
+                        "homepage": "https://zah.me",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "This is a starter template that I've built based on Laravel Framework, with some packages installed out of the box.",
+                "homepage": "https://github.com/linuxjuggler/laravel-starter",
+                "keywords": [
+                    "framework",
+                    "laravel",
+                    "starter-kit",
+                    "starter-template"
+                ],
+                "support": {
+                    "source": "https://github.com/linuxjuggler/laravel-starter/tree/v5.7.19",
+                    "issues": "https://github.com/linuxjuggler/laravel-starter/issues"
+                },
+                "uid": 10
+            },
+            "v5.7.21": {
+                "name": "zaherg/laravel-starter",
+                "version": "v5.7.21",
+                "version_normalized": "5.7.21.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/linuxjuggler/laravel-starter.git",
+                    "reference": "9ffcf72f2936d1ec63b15583f1d07cfbca370c11"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/laravel-starter/zaherg-laravel-starter-9ffcf72f2936d1ec63b15583f1d07cfbca370c11-zip-e88ded.tar",
+                    "reference": "9ffcf72f2936d1ec63b15583f1d07cfbca370c11",
+                    "shasum": "902f9cf4d8559513509dd1135d424f404342a6f7"
+                },
+                "require": {
+                    "barryvdh/laravel-cors": "^0.11.2",
+                    "fideloper/proxy": "^4.0",
+                    "laravel/framework": "5.7.*",
+                    "laravel/tinker": "^1.0",
+                    "php": "^7.1.3",
+                    "predis/predis": "^1.1",
+                    "swooletw/laravel-swoole": "^2.5"
+                },
+                "require-dev": {
+                    "barryvdh/laravel-debugbar": "^3.2",
+                    "barryvdh/laravel-ide-helper": "^2.5",
+                    "beyondcode/laravel-dump-server": "^1.0",
+                    "filp/whoops": "^2.0",
+                    "friendsofphp/php-cs-fixer": "^2.13",
+                    "fzaninotto/faker": "^1.4",
+                    "mockery/mockery": "^1.0",
+                    "nunomaduro/collision": "^2.0",
+                    "phpunit/phpunit": "^7.0",
+                    "squizlabs/php_codesniffer": "^3.3"
+                },
+                "time": "2019-01-16T07:37:39+00:00",
+                "type": "project",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "database/seeds",
+                        "database/factories"
+                    ],
+                    "psr-4": {
+                        "App\\": "app/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi"
+                    ],
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "phpcs": [
+                        "php ./vendor/bin/phpcs ./app -p --report=full --no-cache --colors --standard=PSR1,PSR2"
+                    ],
+                    "fix": [
+                        "php ./vendor/bin/php-cs-fixer fix --config=php_cs.php.dist --using-cache=no"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Zaher Ghaibeh",
+                        "email": "z@zah.me",
+                        "homepage": "https://zah.me",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "This is a starter template that I've built based on Laravel Framework, with some packages installed out of the box.",
+                "homepage": "https://github.com/linuxjuggler/laravel-starter",
+                "keywords": [
+                    "framework",
+                    "laravel",
+                    "starter-kit",
+                    "starter-template"
+                ],
+                "support": {
+                    "source": "https://github.com/linuxjuggler/laravel-starter/tree/v5.7.21",
+                    "issues": "https://github.com/linuxjuggler/laravel-starter/issues"
+                },
+                "uid": 11
+            },
+            "v5.7.25": {
+                "name": "zaherg/laravel-starter",
+                "version": "v5.7.25",
+                "version_normalized": "5.7.25.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/linuxjuggler/laravel-starter.git",
+                    "reference": "11695f2f3d3b6c9a13683a735498f4495220c249"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://linuxjuggler.github.io/testing-satis/dist/zaherg/laravel-starter/zaherg-laravel-starter-11695f2f3d3b6c9a13683a735498f4495220c249-zip-5991bc.tar",
+                    "reference": "11695f2f3d3b6c9a13683a735498f4495220c249",
+                    "shasum": "a0525411733e3f156c1d11ed2b1055d97e97fb32"
+                },
+                "require": {
+                    "barryvdh/laravel-cors": "^0.11.2",
+                    "fideloper/proxy": "^4.0",
+                    "laravel/framework": "5.7.*",
+                    "laravel/tinker": "^1.0",
+                    "php": "^7.1.3",
+                    "predis/predis": "^1.1",
+                    "swooletw/laravel-swoole": "^2.5"
+                },
+                "require-dev": {
+                    "barryvdh/laravel-debugbar": "^3.2",
+                    "barryvdh/laravel-ide-helper": "^2.5",
+                    "beyondcode/laravel-dump-server": "^1.0",
+                    "filp/whoops": "^2.0",
+                    "friendsofphp/php-cs-fixer": "^2.13",
+                    "fzaninotto/faker": "^1.4",
+                    "mockery/mockery": "^1.0",
+                    "nunomaduro/collision": "^2.0",
+                    "phpunit/phpunit": "^7.0",
+                    "squizlabs/php_codesniffer": "^3.3"
+                },
+                "time": "2019-02-06T14:24:31+00:00",
+                "type": "project",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "database/seeds",
+                        "database/factories"
+                    ],
+                    "psr-4": {
+                        "App\\": "app/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi"
+                    ],
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "phpcs": [
+                        "php ./vendor/bin/phpcs ./app -p --report=full --no-cache --colors --standard=PSR1,PSR2"
+                    ],
+                    "fix": [
+                        "php ./vendor/bin/php-cs-fixer fix --config=php_cs.php.dist --using-cache=no"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Zaher Ghaibeh",
+                        "email": "z@zah.me",
+                        "homepage": "https://zah.me",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "This is a starter template that I've built based on Laravel Framework, with some packages installed out of the box.",
+                "homepage": "https://github.com/linuxjuggler/laravel-starter",
+                "keywords": [
+                    "framework",
+                    "laravel",
+                    "starter-kit",
+                    "starter-template"
+                ],
+                "support": {
+                    "source": "https://github.com/linuxjuggler/laravel-starter/tree/v5.7.25",
+                    "issues": "https://github.com/linuxjuggler/laravel-starter/issues"
+                },
+                "uid": 12
+            },
+            "dev-master": {
+                "name": "zaherg/laravel-starter",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/linuxjuggler/laravel-starter.git",
+                    "reference": "11695f2f3d3b6c9a13683a735498f4495220c249"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/linuxjuggler/laravel-starter/zipball/11695f2f3d3b6c9a13683a735498f4495220c249",
+                    "reference": "11695f2f3d3b6c9a13683a735498f4495220c249",
+                    "shasum": ""
+                },
+                "require": {
+                    "barryvdh/laravel-cors": "^0.11.2",
+                    "fideloper/proxy": "^4.0",
+                    "laravel/framework": "5.7.*",
+                    "laravel/tinker": "^1.0",
+                    "php": "^7.1.3",
+                    "predis/predis": "^1.1",
+                    "swooletw/laravel-swoole": "^2.5"
+                },
+                "require-dev": {
+                    "barryvdh/laravel-debugbar": "^3.2",
+                    "barryvdh/laravel-ide-helper": "^2.5",
+                    "beyondcode/laravel-dump-server": "^1.0",
+                    "filp/whoops": "^2.0",
+                    "friendsofphp/php-cs-fixer": "^2.13",
+                    "fzaninotto/faker": "^1.4",
+                    "mockery/mockery": "^1.0",
+                    "nunomaduro/collision": "^2.0",
+                    "phpunit/phpunit": "^7.0",
+                    "squizlabs/php_codesniffer": "^3.3"
+                },
+                "time": "2019-02-06T14:24:31+00:00",
+                "type": "project",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "database/seeds",
+                        "database/factories"
+                    ],
+                    "psr-4": {
+                        "App\\": "app/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi"
+                    ],
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "phpcs": [
+                        "php ./vendor/bin/phpcs ./app -p --report=full --no-cache --colors --standard=PSR1,PSR2"
+                    ],
+                    "fix": [
+                        "php ./vendor/bin/php-cs-fixer fix --config=php_cs.php.dist --using-cache=no"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Zaher Ghaibeh",
+                        "email": "z@zah.me",
+                        "homepage": "https://zah.me",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "This is a starter template that I've built based on Laravel Framework, with some packages installed out of the box.",
+                "homepage": "https://github.com/linuxjuggler/laravel-starter",
+                "keywords": [
+                    "framework",
+                    "laravel",
+                    "starter-kit",
+                    "starter-template"
+                ],
+                "support": {
+                    "source": "https://github.com/linuxjuggler/laravel-starter/tree/v5.7.25",
+                    "issues": "https://github.com/linuxjuggler/laravel-starter/issues"
+                },
+                "uid": 13
+            }
+        }
+    }
+}

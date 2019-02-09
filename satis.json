@@ -1,10 +1,18 @@
 {
   "name": "Testing Satis",
-  "homepage": "https://linuxjuggler.github.io/testing-satis/",
+  "homepage": "https://linuxjuggler.github.io/testing-satis",
   "repositories": [
     { "type": "vcs", "url": "https://github.com/linuxjuggler/lumen-make" },
     { "type": "vcs", "url": "https://github.com/linuxjuggler/lumen-starter" },
     { "type": "vcs", "url": "https://github.com/linuxjuggler/laravel-starter" }
   ],
-  "require-all": true
+  "require-all": true,
+  "archive": {
+    "directory": "dist",
+    "format": "tar",
+    "prefix-url": "https://linuxjuggler.github.io/testing-satis",
+    "skip-dev": true
+  },
+  "providers": true,
+  "output-dir" : "build"
 }
