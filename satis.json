@@ -14,5 +14,5 @@
     "skip-dev": true
   },
   "providers": true,
-  "output-dir" : "/build/docs"
+  "output-dir": "dir"
 }
