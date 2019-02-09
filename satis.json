@@ -1,0 +1,10 @@
+{
+  "name": "Testing Satis",
+  "homepage": "http://packages.example.org",
+  "repositories": [
+    { "type": "vcs", "url": "https://github.com/linuxjuggler/lumen-make" },
+    { "type": "vcs", "url": "https://github.com/linuxjuggler/lumen-starter" },
+    { "type": "vcs", "url": "https://github.com/linuxjuggler/laravel-starter" }
+  ],
+  "require-all": true
+}
